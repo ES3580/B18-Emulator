@@ -63,7 +63,7 @@ vector<vector<int>> NandGateColumn::previous_uses(int pin, vector<vector<int>> &
 {
 	vector<vector<int>> occurances;
 	//prevlist [0] = operand 1 [1] = operand 2 [2] = ouput pin #
-	for (int i = 0; i < prev_list.size(); i++)
+	for (int i = 0; i < (int)prev_list.size(); i++)
 	{
 		//walks through finding where operand 1 or 2 was pin and adds it to list
 		if (prev_list[i][0] == pin || prev_list[i][1] == pin)
@@ -90,7 +90,7 @@ return void
 void NandGateColumn::repair_output(vector<vector<int>>& prev_list, vector<int> &output_pins)
 {
 	//walk through each previous NAND operation
-	for (int i = 0; i < prev_list.size(); i++)
+	for (int i = 0; i < (int)prev_list.size(); i++)
 	{
 		//extract operands
 		int pin = prev_list[i][2];
