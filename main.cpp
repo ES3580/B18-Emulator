@@ -97,7 +97,7 @@ void prebuilt_circuit()
 		}
 		else if (choice == 4)
 		{
-			cout << "Description: Performs XOR on pin 0 and 1. Opuut is duplicated on pins 80-89." << endl;
+			cout << "Description: Performs XOR on pin 0 and 1. Optput is duplicated on pins 80-89." << endl;
 			char infileB1[] = "B_tier_XOR.txt\0";
 			GateArray ga(8, 4, 10, 10, infileB1);
 			cout << ga.results();
@@ -118,14 +118,14 @@ void prebuilt_circuit()
 		}
 		else if (choice == 7)
 		{
-			cout << "Description: Performs a full add on pins 0-1 with pin 2 as carry. Ouput is pin 80 carry out is 81." << endl;
+			cout << "Description: Performs a full add on pins 0-1 with pin 2 as carry. Output is pin 80 carry out is 81." << endl;
 			char infileB4[] = "B_tier_Full_Adder.txt\0";
 			GateArray ga(8, 4, 10, 10, infileB4);
 			cout << ga.results();
 		}
 		else if (choice == 8)
 		{
-			cout << "Description: 4 way XOR on pins 0-3. Ouput is duplicated on pins 80-89." << endl;
+			cout << "Description: 4 way XOR on pins 0-3. Output is duplicated on pins 80-89." << endl;
 			char infileB5[] = "B_tier_4way_XOR.txt\0";
 			GateArray ga(8, 4, 10, 10, infileB5);
 			cout << ga.results();
@@ -140,7 +140,7 @@ void prebuilt_circuit()
 		}
 		else if (choice == 10)
 		{
-			cout << "Description: Performs a full subtract on pins 0-1 with pin 2 as carry. Ouput is pin 32 carry out is 33." << endl;
+			cout << "Description: Performs a full subtract on pins 0-1 with pin 2 as carry. Output is pin 32 carry out is 33." << endl;
 			char infileA2[] = "A_tier_Full_Subtractor.txt\0";
 			GateArray ga(4, 4, 4, 2, infileA2);
 			cout << ga.results();
