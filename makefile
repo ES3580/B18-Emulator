@@ -4,7 +4,7 @@ SOURCE = main.cpp \
 	 tests.cpp
 
 OBJS = $(SOURCE:.cpp=.o)
-OUTNAME = SteidlB18
+OUTNAME = b18
 CFLAGS = -Wall -O3
 CXXFLAGS = $(CFLAGS)
 
