@@ -1,4 +1,4 @@
-SOURCE = main.cpp \
+SOURCE = b18.cpp \
 	 GateArray.cpp \
 	 NandGateColumn.cpp \
 	 tests.cpp
