@@ -16,4 +16,8 @@ The class then has two main public functions. GateArray.results() will print a t
 GateArray.get_single_row() will, given a vector of integers 0-1 representing input pin values, will return
 a vector of integers 0-1 representing output pin values.
 
+## Compilation
+
+To build this project on its own as is, use the make file and type "make" from the command line.
+
 
